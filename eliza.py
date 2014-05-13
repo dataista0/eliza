@@ -9,7 +9,7 @@
 
 import string
 import re
-import whrandom
+import random
 
 class eliza:
   def __init__(self):
@@ -40,7 +40,7 @@ class eliza:
       if match:
         # found a match ... stuff with corresponding value
         # chosen randomly from among the available options
-        resp = whrandom.choice(self.values[i])
+        resp = random.choice(self.values[i])
         # we've got a response... stuff in reflected text where indicated
         pos = string.find(resp,'%')
         while pos > -1:
