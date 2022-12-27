@@ -5,7 +5,8 @@
 #  with some updates by Jeff Epler <jepler@inetnebr.com>
 #  hacked into a module and updated by Jez Higgins <jez@jezuk.co.uk>
 #  updated to whrandom deprecation by Julian Peller <julianpeller@gmail.com>
-#  last revised: 12 May 2014
+#  adapted to python 3 by Julian Peller <julianpeller@gmail.com>
+#  last revised: 27 Dec 2022
 #----------------------------------------------------------------------
 
 import string
